@@ -1,1 +1,41 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Support for <App Name></title>
+</head>
+<body>
+  <header>
+    <h1>Support for <App Name></h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <p>Add your FAQs here</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or issues with the app, please fill out the form below or send us an email at <a href="mailto:<Support Email Address>"><Support Email Address></a></p>
+      <form action="<Support Form URL>" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © <Current Year> <Company Name></p>
+  </footer>
+</body>
+</html>
+
